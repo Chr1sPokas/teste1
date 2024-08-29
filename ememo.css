@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    position: relative;
+    margin-top: 50px;
+    align-items: center;
+    background-size: cover;
+    left: 720px;
+    width: 480px; /* Largura fixa */
+    height: 360px; /* Altura fixa */
+    background-position: center;
+}
+a{
+    text-align: center;
+    left: 0px;
+    font-family: Arial;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 5;
+    position: relative;
+    display: block;
+}
+.bloco-fundo {
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branco */
+    padding: 20px; /* Espaçamento interno */
+    width: 70px; /* Largura da caixa */
+    margin: 5px; /* Margem ao redor da caixa */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: block;
+}
+span:hover{
+    color: rgb(255, 0, 0); /* Cor que o texto terá quando o mouse estiver em cima */
+}
+.sorte{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+}
